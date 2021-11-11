@@ -45,7 +45,72 @@ html, body, p, div{
 }
 
 
+/* Background Image */
+.background-image{
+  
+    position: relative; 
+    
+    left: -285px; 
+    top: 2px;
+    object-fit: cover;
+    
+}
+
+@media (max-width: 500px) {
+    .background-image {
+      width: 80%;
+      height: auto;
+      left: -85px;
+    }
+  }
+
+  .page-section {
+    position: relative;
+    display: block;
+    padding: 80px 0;
+    left: 8px;
+  }
+  
+  .page-section p {
+    color: #6D728B;
+  }
+
+  .subhead {
+    color: #000;
+    font-weight: 400;
+  }
+
+  .title-section {
+    display: block;
+    max-width: 450px;
+    color: #2d2f38;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+
+  .about-img {
+    position: relative;
+    margin: 15px auto;
+    width: auto;
+    max-width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    
+  }
+  
+  .about-img img {
+    width: 100%;
+  }
+  
+
+/* Cards Index*/
+
+.content h1{
+ align-items: center;
+}
+
 /* Navigation-Main*/
+
 
 /* xs */
 .logo {
@@ -103,8 +168,70 @@ html, body, p, div{
 }
 
 
+.text-center .title-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-contact .form-control {
+  background-color: #f2f9fe;
+  border-color: transparent;
+}
+
+.form-contact .form-control:focus {
+  background-color: transparent;
+  border-color: blue;
+  -webkit-box-shadow: 0 0 0 1px #94c2fd;
+          box-shadow: 0 0 0 1px #94c2fd;
+}
+
+
+
 /* Footer */
 
 .footer > div > div > ul > li{
-    padding-bottom:8px;
+    padding-bottom:16px;
+    justify-content: space-evenly;
 }
+
+
+
+.footer .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+
+
+  
+  .footer .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer .item.social > a {
+      margin-top:10px;
+    }
+}
+  
+.footer .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    
+    font-size:14px;
+    opacity:0.6;
+  }
