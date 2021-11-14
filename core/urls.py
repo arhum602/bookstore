@@ -11,6 +11,7 @@ urlpatterns = [
     path("payment/", include("payment.urls", namespace="payment")),
     path("account/", include("account.urls", namespace="account")),
     path("orders/", include("orders.urls", namespace="orders")),
+    path("donate/", include("donate.urls", namespace="donate")),
     path("__debug__/", include(debug_toolbar.urls)),
 ]
 
