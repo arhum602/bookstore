@@ -11,11 +11,11 @@
       <path
         d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
     </svg>
-    COVID-19 - <u>lol it worked.
+    COVID-19 - Click here for our latest updates on our stores, website and contact centre. Thank you for your patience and support..
   </div>
   
   <div class="background-image" >
-    <img src="/media/images/cover.png" alt="bgpic" class="responsive" height="50%" width="160%" style="
+    <img src="/media/images/donatecover.jpeg" alt="bgpic" class="responsive" height="50%" width="160%" style="
     margin-bottom: 25px; ">
   </div>
   
@@ -24,94 +24,58 @@
       <div class="row align-items-center">
         <div class="col-lg-6 py-3">
           
-          <h1 class="title-section"><span class="fg-primary">About Us</span></h1>
+          <h1 class="title-section"><span class="fg-primary">Why you should?</span></h1>
 
-          <p>IIITL Book Aid is a book donation and library development charity. Every year we give millions of people the opportunity to read by providing brand new books to thousands of libraries, schools, universities, refugee camps, hospitals and prisons worldwide.</p>
+          <p>In many communities, books are scarce and public, community and school libraries have limited budgets and few new books. </p>
+          <p>At BookAid IIITL we supply books which enrich, improve and change the lives of an estimated 19.5 million readers every year.</p>
+          <p>By donating books to Book Aid International you can play a part in bringing the joy of reading to millions of people who might otherwise have no access to books.</p>
 
-          <a href="about.html" class="btn btn-primary mt-4">Read More</a>
+          
         </div>
         <div class="col-lg-6 py-3">
           <div class="about-img">
-            <img src="/media/images/image-12.jpg" alt="">
+            <img src="/media/images/hmm.jpg" alt="">
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="page-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 py-3">
-          
-          <h1 class="title-section"><span class="fg-primary">Our Goal</span></h1>
-
-          <p>Our mission is to provide books, resources and training to support an environment in which reading for pleasure, study and lifelong learning can flourish. </p>
-
-          <a href="#" class="btn btn-primary mt-4">Read More</a>
-        </div>
-        <div class="col-lg-6 py-3">
-          <div class="about-img">
-            <img src="/media/images/India-literacy-1.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="container">
+    <h4>After dropping off or mailing in your books, please send an email to bookaid@iiitl.ac.in , and we will email you a thank you letter for your records!</h4>
   </div>
-
-  <div class="page-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 py-3">
-          
-          <h1 class="title-section"><span class="fg-primary">Our Vision</span></h1>
-
-          <p>Our vision is a world where everyone has access to books that will enrich, improve and change their lives. </p>
-
-          <a href="#" class="btn btn-primary mt-4">Read More</a>
-        </div>
-        <div class="col-lg-6 py-3">
-          <div class="about-img">
-            <img src="/media/images/read.jpg" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+  <div class="background-image" >
+    <img src="/media/images/mail.jpeg" alt="mail" class="responsive" height="50%" width="160%" style="
+    margin-bottom: 25px;  ">
   </div>
   
-<div class="container">
-    <div class="row">
-      <div class="album py-5">
-        <div class="pb-3">
-          <h1 class="h3">Popular Products</h1>
-        </div>
-        {% if not products %}
-        <div class="col-12">There are currently no products active</div>
-        {% else %}
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
-          {% for product in products %}
-          <div class="col">
-            <div class="cards border-0">
-              {% for image in product.product_image.all %}
-              {% if image.is_feature%}
-              <img class="img-fluid" alt="Responsive image" src="{{ image.image.url }}"
-                alt="{{ image.image.alt_text }}">
-              {% endif %}
-              {% endfor %}
-              <div class="cards-body px-0">
-                <p class="cards-text">
-                  <a class="text-dark text-decoration-none"
-                    href="{{ product.get_absolute_url }}">{{ product.title|slice:":50" }}...</a>
-                </p>
-                <div class="fw-bold">£{{product.regular_price}}</div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
+  
+  <br>
+
+  <div class="page-section">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="title-section mb-3">How it works?</h1>
       </div>
-      <div class="page-section">
+      </div>
+    </div>
+  
+
+ <div class="background-image" >
+  <img src="/media/images/how.jpeg" alt="how" class="responsive" height="50%" width="160%" style="
+  margin-bottom: 25px;  ">
+</div>
+
+
+  
+  
+
+<div class="page-section">
         <div class="container">
           <div class="text-center">
             <h2 class="title-section mb-3">Stay in touch</h2>
