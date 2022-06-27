@@ -101,10 +101,10 @@ BASKET_SESSION_ID = "basket"
 # Stripe Payment
 os.environ.setdefault(
     "STRIPE_PUBLISHABLE_KEY",
-    "pk_test_51JvdW8HpxZVr5cypFM9wLhvn1JNYuJqbKTNuxQoKgEsIdIukZOv1yzQUcT6DEwoEbLtrPmzvG147xbYSLzOhWKM400x0CoVq0P",
+    "pk_test_51JvdW8HpxZVr5cypM5mJVDxqje3OeHD9mDsq7n2ZvJMjJUHsxMo2QSheFJfZqmWcpy5eW7Z8ALz9h9WmMt0MnivR00c0haeVz4",
 )
 STRIPE_SECRET_KEY = (
-    "sk_test_51JvdW8HpxZVr5cypx4PVBT0Idx82LQIzw29C00a1AEPmClNcmPMcmIAxbth9zmhFrGUlUSWJ6hQ1zrSXBzXvuZIJ00R6IpqlAr"
+    "sk_test_51JvdW8HpxZVr5cypBFtfqLjbwZcH5HOZvkGCv6cgKF6tl4QTxOkgc8qQQ2MRuxo7DccCxdNPU8g3wgFkdkqPgOlO004UzHplFH"
 )
 # stripe listen --forward-to localhost:8000/payment/webhook/
 
